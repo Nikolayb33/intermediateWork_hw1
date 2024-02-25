@@ -10,7 +10,6 @@ class Note():
 
         self.id = 0
 
-        self.dictionaryNote = dict()
         
     
     #создание имени заметки
