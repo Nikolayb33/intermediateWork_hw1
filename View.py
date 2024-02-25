@@ -1,7 +1,5 @@
-from controllers.interface.iView import iView
 
-
-class View(iView):
+class View():
     
     
     # конструктор
@@ -58,7 +56,6 @@ class View(iView):
                 print(self.body())
                 body_note = self.controller.model.createBodyNote()    
                 self.controller.model.createNote(name_note, body_note)
-                # self.controller.model.createFileNote(name_note, body_note)
                 print(self.saveNote())
                 print("_____________")
                 
@@ -79,18 +76,7 @@ class View(iView):
             if start == "выход":
                 break
         
-        # self.controller.model.dictionaryNote[name] = [body, self.controller.model.date_of_note]
-        # self.controller.model.createFileNote(name)
-        # self.saveNote()
-        
-        # print(self.controller.model.dictionaryNote)
-        
-    
-    # # main метод
-    # def main(self):
-    #     print("in main of view")
-    #     name = self.name()
-    #     body = self.body()
+
         
     
     

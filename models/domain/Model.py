@@ -1,9 +1,9 @@
 import datetime
 import os
-from controllers.interface.iModel import iModel
 
 
-class Note(iModel):
+
+class Note():
     
     # конструктор
     def __init__(self):
